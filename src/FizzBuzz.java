@@ -20,7 +20,7 @@ class FizzBuzz {
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
@@ -43,5 +43,9 @@ class FizzBuzz {
             System.out.println(i);
 
         }
+    }
+
+    public static void main() {
+        FizzBuzz.main();
     }
 }
